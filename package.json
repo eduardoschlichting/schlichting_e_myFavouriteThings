@@ -1,7 +1,7 @@
 {
-  "name": "learninggulp",
+  "name": "myfavouritethings",
   "version": "1.0.0",
-  "description": "learning how to use gulp",
+  "description": "my favourite things interactive app",
   "main": "index.js",
   "type": "module",
   "scripts": {
