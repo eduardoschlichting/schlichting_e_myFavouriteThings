@@ -1,7 +1,18 @@
+@import 'modules/reset';
+@import 'modules/vars';
+@import 'modules/splash';
+
 body {
-    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    background-color: $light-white;
+    font-family: $main-type;
+    color: $purple;
 }
 
-h1 {
-    color: red;
+main {
+    margin: 0 3em;
 }
