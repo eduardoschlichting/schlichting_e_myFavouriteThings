@@ -24,9 +24,11 @@ Copy repository from Github to preferred project location. You're good to go and
 # Contributing :pushpin:
 1. Fork it!
 2. Create your feature branch: `git checkout -b dev.initials.newFeature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin dev.initials.newFeature`
-5. Submit a pull request :D
+3. Run npm install to install all dependencies
+4. Change and add whatever you want!
+5. Commit your changes: `git commit -am 'Add some feature'`
+6. Push to the branch: `git push origin dev.initials.newFeature`
+7. Submit a pull request :D
 
 # History :scroll:
 Write what you have done!
