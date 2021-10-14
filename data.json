@@ -1,0 +1,29 @@
+{
+    "Designing": {
+        "nameThing": "Name of the thing:",
+        "thing": "Design",
+        "what": "What it does?",
+        "description":"Design has been in ma life since…always? Drawing, sketching and building toys was my routine as a child and continues now!",
+        "nice": "Is it nice?",
+        "mark": "10/10 to me",
+        "image": "gradient.jpg"
+    },
+    "Reading": {
+        "nameThing": "Name of the thing:",
+        "thing": "Reading",
+        "description":"Reading is a habit that I’m rebuilding little by little. When I was a child I used to read every single “Turma da Monica” hqs. I learnt how to read with it. Today I mostly read self-help books when I have time.",
+        "what": "What it does?",
+        "nice": "Is it nice?",
+        "mark": "8/10 to me, hard to focus sometimes",
+        "image": "books.jpg"
+    },
+    "Gaming": {
+        "nameThing": "Name of the thing:",
+        "thing": "Games",
+        "description":"Yeah. I’m definitely addicted. It started with an innocent PS2 and now I’m here playing every single car/fps game that exists. And I love it.",
+        "what": "What it does?",
+        "mark": "100/10 to me, it is a escape from reality <3",
+        "nice": "Is it nice?",
+        "image": "mustang.jpg"
+    }
+}

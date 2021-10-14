@@ -1,0 +1,33 @@
+.things {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+        a:not(:last-child) {
+            padding-bottom: 10px;
+        }
+}
+
+
+.thing__panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 300px;
+    margin-top: 20px;
+
+    .thing__image {
+        padding-bottom: 16px;
+    }
+    .thing__name-of {
+        font-style: italic;
+        font-weight: bold;
+    }
+    .thing__title {
+        margin-bottom: 16px;
+    }
+    .thing__description {
+        margin-bottom: 16px;
+    }
+}
+

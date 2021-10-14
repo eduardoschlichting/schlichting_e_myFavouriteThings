@@ -1,9 +1,10 @@
 @import 'modules/reset';
 @import 'modules/vars';
 @import 'modules/splash';
+@import 'modules/things';
 
 body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;

@@ -22,11 +22,15 @@ h2 {
 a {
     color: inherit;
     font-size: $link-mobile;
+
+    a:clicked { color: inherit; }
+    a:active { color: inherit; }
+    A:hover { font-style: italic; }
 }
 
 span { text-decoration: underline; }
 
 // Helper classes
 
-.hidden { display: none; }
+.hidden { display: none !important; }
 .show { display: block; }
