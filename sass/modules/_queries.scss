@@ -1,0 +1,40 @@
+
+// media queries
+
+
+@media screen and (min-width: 800px) {
+    main {
+        margin: 0 auto;
+    }
+
+    .home-splash {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+
+        h2 {
+            font-size: $title-desktop;
+            width: 800px;
+            text-align: center;
+        }
+    }
+
+    .wrapperThings {
+        display: flex;
+        align-items: center;
+        gap: 30em;
+
+        .things {
+            width: 430px;
+        }
+    }
+    .things-button {
+        font-size: $link-desktop;
+    }
+
+    #thingsPlace {
+        font-size: 1.2rem;
+    }
+
+}

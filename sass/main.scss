@@ -1,6 +1,11 @@
 @import 'modules/reset';
 @import 'modules/vars';
+@import 'modules/keyframes';
+@import 'modules/queries';
+
 @import 'modules/splash';
+@import 'modules/things';
+
 
 body {
     height: 100vh;
@@ -11,8 +16,18 @@ body {
     background-color: $light-white;
     font-family: $main-type;
     color: $purple;
+    
 }
 
 main {
     margin: 0 3em;
+    
 }
+
+// for some reason it doesnt work inside the queries file
+@media screen and (min-width: 800px) {
+    main {
+        margin: 0 auto;
+    }
+}
+

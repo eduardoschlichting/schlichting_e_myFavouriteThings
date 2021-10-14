@@ -1,0 +1,57 @@
+// Animations
+
+@keyframes slideUp {
+    from {
+        transform: translateY(75px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.home-splash__title {
+    animation: slideUp 1s ease-out forwards, opacity 2s ease-out forwards;
+}
+
+.discover-button {
+    animation: slideUp 1.5s ease-out forwards, opacity 2.5s ease-out forwards;
+};
+
+.things-like {
+    animation: slideUp 1s ease-out forwards, opacity 2s ease-out forwards;
+}
+
+.things-button:nth-child(2)  {
+    animation: slideUp 1s ease-out forwards, opacity 2s ease-out forwards;
+}
+
+.things-button:nth-child(3)  {
+    animation: slideUp 1.5s ease-out forwards, opacity 2.5s ease-out forwards;
+}
+
+.things-button:nth-child(4)  {
+    animation: slideUp 2s ease-out forwards, opacity 3s ease-out forwards;
+}
+
+// things Panel
+
+.run-animation {
+    animation: slideUp 1.5s ease-out forwards, opacity 2.5s ease-out forwards;
+}
+
+// stuff inside things panel
+
+.run-animation-1 { animation: slideUp 2s ease-out forwards, opacity 3s ease-out forwards; }
+
+.run-animation-2 { animation: slideUp 3s ease-out forwards, opacity 4s ease-out forwards; }
+
+.run-animation-3 { animation: slideUp 4s ease-out forwards, opacity 5s ease-out forwards; }
