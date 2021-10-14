@@ -8,7 +8,11 @@ $main-type: 'DM Sans', sans-serif;
 // Mobile first
 
 $title-mobile: 1.875rem;
+$title-desktop: 2.5rem;
 $link-mobile: 1.25rem;
+$link-desktop: 3.75rem;
+$discoverBtn: 1.25rem;
+
 
 h2 {
     font-size: $title-mobile;
@@ -22,13 +26,16 @@ h2 {
 a {
     color: inherit;
     font-size: $link-mobile;
+    text-decoration: underline;
+    display: inline-block;
 
-    a:clicked { color: inherit; }
     a:active { color: inherit; }
     A:hover { font-style: italic; }
 }
 
 span { text-decoration: underline; }
+
+
 
 // Helper classes
 

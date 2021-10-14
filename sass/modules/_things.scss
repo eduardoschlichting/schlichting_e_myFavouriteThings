@@ -6,6 +6,10 @@
         a:not(:last-child) {
             padding-bottom: 10px;
         }
+        &-button:focus {
+            font-style: italic;
+            font-weight: bold;
+        }
 }
 
 
@@ -19,7 +23,15 @@
     .thing__image {
         padding-bottom: 16px;
     }
-    .thing__name-of {
+    .thing__name-of-1 {
+        font-style: italic;
+        font-weight: bold;
+    }
+    .thing__name-of-2 {
+        font-style: italic;
+        font-weight: bold;
+    }
+    .thing__name-of-3 {
         font-style: italic;
         font-weight: bold;
     }
@@ -30,4 +42,6 @@
         margin-bottom: 16px;
     }
 }
+
+
 

@@ -1,6 +1,9 @@
 (() => {
 
-    const    thingButtons = document.querySelectorAll(".things-button");
+    const    thingButtons = document.querySelectorAll(".things-button"),
+             discoverBtn = document.querySelector('.discover-button'),
+             thingsDiv = document.querySelector('.things'),
+             splashPage = document.querySelector('.home-splash');
     let things = {};
 
 
@@ -48,7 +51,54 @@
 
     };
 
+    function showThings() {
+        thingsDiv.classList.remove('hidden');
+        splashPage.classList.add('hidden');
+
+    }
+
+    discoverBtn.addEventListener("click", showThings);
     thingButtons.forEach(btn => (btn.addEventListener("click", showDataThing)));
+
+    thingButtons.forEach(btn => (btn.addEventListener("click", function(e) {
+        e.preventDefault;
+
+        let currentPanel = document.querySelector('.thing__panel'),
+            title = document.querySelector('.thing__name-of-1'),
+            name = document.querySelector('.thing__title'),
+            what = document.querySelector('.thing__name-of-2'),
+            whatRes = document.querySelector('.thing__description'),
+            mark = document.querySelector('.thing__name-of-3'),
+            markRes = document.querySelector('.thing__mark');
+
+        // removes animation
+        currentPanel.classList.remove("run-animation");
+        title.classList.remove("run-animation-1");
+        name.classList.remove("run-animation-1");
+        what.classList.remove("run-animation-2");
+        whatRes.classList.remove("run-animation-2");
+        mark.classList.remove("run-animation-3");
+        markRes.classList.remove("run-animation-3");
+
+        // reset animation / reflow
+        void currentPanel.offsetWidth;
+        void title.offsetWidth;
+        void name.offsetWidth;
+        void what.offsetWidth;
+        void whatRes.offsetWidth;
+        void mark.offsetWidth;
+        void markRes.offsetWidth;
+
+        // add the animation again
+        currentPanel.classList.add("run-animation");
+        title.classList.add("run-animation-1");
+        name.classList.add("run-animation-1");
+        what.classList.add("run-animation-2");
+        whatRes.classList.add("run-animation-2");
+        mark.classList.add("run-animation-3");
+        markRes.classList.add("run-animation-3");
+    }, false)));
+
 
     getData();
 
