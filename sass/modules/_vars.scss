@@ -1,0 +1,32 @@
+// Colours
+
+$purple: #69488e;
+$light-white: #e5e1e6;
+
+// Typography
+$main-type: 'DM Sans', sans-serif;
+// Mobile first
+
+$title-mobile: 1.875rem;
+$link-mobile: 1.25rem;
+
+h2 {
+    font-size: $title-mobile;
+    font-weight: 400;
+    line-height: 1.5em;
+
+}
+
+// miscellaneous
+
+a {
+    color: inherit;
+    font-size: $link-mobile;
+}
+
+span { text-decoration: underline; }
+
+// Helper classes
+
+.hidden { display: none; }
+.show { display: block; }
