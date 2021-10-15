@@ -28,6 +28,7 @@ a {
     font-size: $link-mobile;
     text-decoration: underline;
     display: inline-block;
+    cursor: pointer;
 
     a:active { color: inherit; }
     A:hover { font-style: italic; }
