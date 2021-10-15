@@ -18,9 +18,9 @@
                 
             })
             .catch(error => console.error(error));
-    }
+    };
 
-
+    
     function showDataThing(event) {
 
         
@@ -103,3 +103,6 @@
     getData();
 
 })();
+
+
+btns.forEach(btn => (btn.addEventListener("click", buildControl)));
