@@ -71,7 +71,7 @@
             mark = document.querySelector('.thing__name-of-3'),
             markRes = document.querySelector('.thing__mark');
 
-        // removes animation
+            // removes animation
         currentPanel.classList.remove("run-animation");
         title.classList.remove("run-animation-1");
         name.classList.remove("run-animation-1");
